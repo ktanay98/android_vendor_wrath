@@ -23,3 +23,7 @@ PRODUCT_COPY_FILES += \
     vendor/wrath/config/permissions/privapp-permissions-wrath-system.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-wrath-system.xml \
     vendor/wrath/config/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml \
     vendor/wrath/config/permissions/wrath-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/wrath-hiddenapi-package-whitelist.xml
+
+# Live Display
+PRODUCT_COPY_FILES += \
+    vendor/wrath/config/permissions/privapp-permissions-livedisplay.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-livedisplay.xml
