@@ -1,5 +1,5 @@
-# Inherit common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_mobile.mk)
+# Inherit common WrathOS stuff
+$(call inherit-product, vendor/wrath/config/common.mk)
 
 PRODUCT_SIZE := full
 
