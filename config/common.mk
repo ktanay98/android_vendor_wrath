@@ -5,6 +5,9 @@ include vendor/wrath/build/core/wrath_version.mk
 -include vendor/wrath/config/wrath_permissions.mk
 -include vendor/wrath/config/wrath_packages.mk
 
+# Rage
+include vendor/Rage/config.mk
+
 # Bootanimation
 include vendor/wrath/bootanimation/bootanimation.mk
 
