@@ -1,6 +1,6 @@
 # Allow vendor/extra to override any property by setting it first
 $(call inherit-product-if-exists, vendor/extra/product.mk)
-include vendor/wrath/build/core/wrath_version.mk
+include vendor/wrath/config/wrath_version.mk
 
 -include vendor/wrath/config/wrath_permissions.mk
 -include vendor/wrath/config/wrath_packages.mk
